@@ -1,0 +1,8 @@
+# this is the list of ignored files for the git commits
+
+# all .userdatad files log
+*.xcuserdatad
+
+# ignore sharing test data
+Destini-iOS13.xcodeproj/xcshareddata/
+
