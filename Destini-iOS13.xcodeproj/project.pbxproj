@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		764E04ED26F578DD00DC2049 /* StoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E04EC26F578DD00DC2049 /* StoryTest.swift */; };
 		764E04F026F57E2700DC2049 /* Story_Eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E04EF26F57E2700DC2049 /* Story_Eng.swift */; };
+		764E04F226F57FDB00DC2049 /* StoryTeller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E04F126F57FDB00DC2049 /* StoryTeller.swift */; };
+		764E04F426F5800F00DC2049 /* StoryTellerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E04F326F5800F00DC2049 /* StoryTellerTest.swift */; };
 		AD7631D422FC5E7E00C6E71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */; };
 		AD7631D622FC5E7E00C6E71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */; };
 		AD7631D822FC5E7E00C6E71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D722FC5E7E00C6E71B /* ViewController.swift */; };
@@ -34,6 +36,8 @@
 		764E04E626F575E100DC2049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764E04EC26F578DD00DC2049 /* StoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTest.swift; sourceTree = "<group>"; };
 		764E04EF26F57E2700DC2049 /* Story_Eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story_Eng.swift; sourceTree = "<group>"; };
+		764E04F126F57FDB00DC2049 /* StoryTeller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTeller.swift; sourceTree = "<group>"; };
+		764E04F326F5800F00DC2049 /* StoryTellerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTellerTest.swift; sourceTree = "<group>"; };
 		AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				764E04EC26F578DD00DC2049 /* StoryTest.swift */,
+				764E04F326F5800F00DC2049 /* StoryTellerTest.swift */,
 				764E04E626F575E100DC2049 /* Info.plist */,
 			);
 			path = "Destini-iOS13Tests";
@@ -136,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7631E922FC64C100C6E71B /* Story.swift */,
+				764E04F126F57FDB00DC2049 /* StoryTeller.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				764E04ED26F578DD00DC2049 /* StoryTest.swift in Sources */,
+				764E04F426F5800F00DC2049 /* StoryTellerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD7631D822FC5E7E00C6E71B /* ViewController.swift in Sources */,
+				764E04F226F57FDB00DC2049 /* StoryTeller.swift in Sources */,
 				AD7631D422FC5E7E00C6E71B /* AppDelegate.swift in Sources */,
 				AD7631D622FC5E7E00C6E71B /* SceneDelegate.swift in Sources */,
 				AD7631EA22FC64C100C6E71B /* Story.swift in Sources */,
