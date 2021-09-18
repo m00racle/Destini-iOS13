@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764E04E526F575E100DC2049 /* Destini_iOS13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764E04E426F575E100DC2049 /* Destini_iOS13Tests.swift */; };
 		AD7631D422FC5E7E00C6E71B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */; };
 		AD7631D622FC5E7E00C6E71B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */; };
 		AD7631D822FC5E7E00C6E71B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7631D722FC5E7E00C6E71B /* ViewController.swift */; };
@@ -18,7 +19,20 @@
 		AD7631EF22FC656600C6E71B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7631EE22FC656600C6E71B /* README.md */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		764E04E726F575E100DC2049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD7631C822FC5E7D00C6E71B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD7631CF22FC5E7E00C6E71B;
+			remoteInfo = "Destini-iOS13";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		764E04E226F575E100DC2049 /* Destini-iOS13Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Destini-iOS13Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764E04E426F575E100DC2049 /* Destini_iOS13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destini_iOS13Tests.swift; sourceTree = "<group>"; };
+		764E04E626F575E100DC2049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7631D322FC5E7E00C6E71B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD7631D522FC5E7E00C6E71B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		764E04DF26F575E100DC2049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD7631CD22FC5E7E00C6E71B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,11 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		764E04E326F575E100DC2049 /* Destini-iOS13Tests */ = {
+			isa = PBXGroup;
+			children = (
+				764E04E426F575E100DC2049 /* Destini_iOS13Tests.swift */,
+				764E04E626F575E100DC2049 /* Info.plist */,
+			);
+			path = "Destini-iOS13Tests";
+			sourceTree = "<group>";
+		};
 		AD7631C722FC5E7D00C6E71B = {
 			isa = PBXGroup;
 			children = (
 				AD7631EE22FC656600C6E71B /* README.md */,
 				AD7631D222FC5E7E00C6E71B /* Destini-iOS13 */,
+				764E04E326F575E100DC2049 /* Destini-iOS13Tests */,
 				AD7631D122FC5E7E00C6E71B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7631D022FC5E7E00C6E71B /* Destini-iOS13.app */,
+				764E04E226F575E100DC2049 /* Destini-iOS13Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		764E04E126F575E100DC2049 /* Destini-iOS13Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764E04EB26F575E100DC2049 /* Build configuration list for PBXNativeTarget "Destini-iOS13Tests" */;
+			buildPhases = (
+				764E04DE26F575E100DC2049 /* Sources */,
+				764E04DF26F575E100DC2049 /* Frameworks */,
+				764E04E026F575E100DC2049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764E04E826F575E100DC2049 /* PBXTargetDependency */,
+			);
+			name = "Destini-iOS13Tests";
+			productName = "Destini-iOS13Tests";
+			productReference = 764E04E226F575E100DC2049 /* Destini-iOS13Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD7631E422FC5E8300C6E71B /* Build configuration list for PBXNativeTarget "Destini-iOS13" */;
@@ -126,10 +176,14 @@
 		AD7631C822FC5E7D00C6E71B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "The App Brewery";
 				TargetAttributes = {
+					764E04E126F575E100DC2049 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AD7631CF22FC5E7E00C6E71B;
+					};
 					AD7631CF22FC5E7E00C6E71B = {
 						CreatedOnToolsVersion = 11.0;
 					};
@@ -149,11 +203,19 @@
 			projectRoot = "";
 			targets = (
 				AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */,
+				764E04E126F575E100DC2049 /* Destini-iOS13Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		764E04E026F575E100DC2049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD7631CE22FC5E7E00C6E71B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +230,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		764E04DE26F575E100DC2049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764E04E526F575E100DC2049 /* Destini_iOS13Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD7631CC22FC5E7E00C6E71B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,6 +251,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764E04E826F575E100DC2049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD7631CF22FC5E7E00C6E71B /* Destini-iOS13 */;
+			targetProxy = 764E04E726F575E100DC2049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AD7631D922FC5E7E00C6E71B /* Main.storyboard */ = {
@@ -202,6 +280,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		764E04E926F575E100DC2049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Destini-iOS13Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m00racle.Destini-iOS13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini-iOS13.app/Destini-iOS13";
+			};
+			name = Debug;
+		};
+		764E04EA26F575E100DC2049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Destini-iOS13Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m00racle.Destini-iOS13Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Destini-iOS13.app/Destini-iOS13";
+			};
+			name = Release;
+		};
 		AD7631E222FC5E8300C6E71B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -353,6 +473,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		764E04EB26F575E100DC2049 /* Build configuration list for PBXNativeTarget "Destini-iOS13Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764E04E926F575E100DC2049 /* Debug */,
+				764E04EA26F575E100DC2049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AD7631CB22FC5E7D00C6E71B /* Build configuration list for PBXProject "Destini-iOS13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

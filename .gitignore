@@ -1,0 +1,5 @@
+# this is the list of ignored files for the git commits
+
+# all .userdatad files log
+*.xcuserdatad
+
