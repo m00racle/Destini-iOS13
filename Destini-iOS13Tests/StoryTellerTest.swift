@@ -42,5 +42,19 @@ class StoryTellerTest: XCTestCase {
         teller.nextPage(choice: "Better ask him if he's a murderer first.")
         XCTAssertEqual(teller.page, 1)
     }
+    
+    func test_restart_page_after_the() {
+//        actions
+        teller.page = 4
+        teller.nextPage(choice: "The")
+        XCTAssertEqual(teller.page, 0)
+    }
+    
+    func test_restart_page_after_end() {
+//        actions
+        teller.page = 4
+        teller.nextPage(choice: "End")
+        XCTAssertEqual(teller.page, 0)
+    }
 
 }

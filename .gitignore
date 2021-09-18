@@ -3,3 +3,6 @@
 # all .userdatad files log
 *.xcuserdatad
 
+# ignore sharing test data
+Destini-iOS13.xcodeproj/xcshareddata/
+
